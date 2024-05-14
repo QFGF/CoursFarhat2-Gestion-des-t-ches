@@ -2,5 +2,9 @@
 {
     public class MettreAJourTache
     {
+        public static string MajTache()
+        {
+
+        }
     }
 }

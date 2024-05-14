@@ -2,5 +2,9 @@
 {
     public class SupprimerTache
     {
+        public static string DeleteTache()
+        {
+
+        }
     }
 }

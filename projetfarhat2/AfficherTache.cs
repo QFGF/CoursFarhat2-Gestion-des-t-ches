@@ -2,5 +2,9 @@
 {
     public class AfficherTache
     {
+        public static string ShowTache()
+        {
+
+        }
     }
 }
