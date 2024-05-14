@@ -3,14 +3,20 @@
     public class Main
     {
         //Etape :
-        Console.WriteLine("Que voulez-vous faire (Ajouter, Supprimer, Afficher ou Mettre à jour une tâche) ?")
-        WhatIDo = Console.ReadLine();
-        ChoiseToDo(WhatIDo)
+        public static void Main
+        {
+
+        }
+        
         // Etape 1 : 
         // Demander ce que l'utilisateur veux faire (Add, Delete, Show, MAJ)
         public static string ChoiseToDo(string WhatIDo)
         {
-            
+            Console.WriteLine("Que voulez-vous faire (Ajouter, Supprimer, Afficher ou Mettre à jour une tâche) ?")
+            WhatIDo = Console.ReadLine();
+            AjouterTache.AddTache("Tache test 1", "C'est la tache numero 1", "26052024", "140520241"
+            AjouterTache.AddTache("Tache test 2", "C'est la tache numero 2", "26052024", "140520242"
+            AjouterTache.AddTache("Tache test 3", "C'est la tache numero 3", "26052024", "140520243"
             switch (WhatIDo)
             {
                 //Demander la tache qu'il veux ajouter et l'envoyer a la methode AjouterTache
@@ -25,7 +31,7 @@
                     Console.WriteLine("Quel est la date de fin de la tache que vous voulez Ajouter ?")
                     string  DateFinTache = Console.ReadLine();
                     string IdTache = DateTime.Now.ToString()
-                    AjouterTache.AddTache(NomTache, DescriptionTache, DateFinTache IdTache)
+                    AjouterTache.AddTache(NomTache, DescriptionTache, DateFinTache, IdTache)
 
                 //Demander la tache qu'il veux Supprimer et l'envoyer a la methode SupprimerTache
                 case "Supprimer"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TTiO1NrVQ9LUAEgg2lIx/fW/FDMF2DFEaNDTcarLegdzP6ikPFI3bjzHLp/vkC+IrEw5DiNuqxp2HO+4yX9PqA==",
+  "dgSpecHash": "K41JpFGg1GM2IoABzEMjWHxnCpvBTYomkkVDjRyA3UYTUlZDwfrxTWb+h6Dl3zqE6PbJno07xve2FO0aKEJK5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\frais\\source\\repos\\projetfarhat2\\projetfarhat2.csproj",
+  "projectFilePath": "C:\\Users\\frais\\source\\repos\\CoursFarhat2\\projetfarhat2\\CoursFarhat2-Gestion-des-t-ches\\projetfarhat2\\projetfarhat2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\frais\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\frais\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
