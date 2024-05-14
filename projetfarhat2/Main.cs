@@ -24,7 +24,8 @@
                     //Demander la DateDeFin souhaiter de la tache
                     Console.WriteLine("Quel est la date de fin de la tache que vous voulez Ajouter ?")
                     string  DateFinTache = Console.ReadLine();
-                    AjouterTache.AddTache(NomTache, DescriptionTache, DateFinTache)
+                    string IdTache = DateTime.Now.ToString()
+                    AjouterTache.AddTache(NomTache, DescriptionTache, DateFinTache IdTache)
 
                 //Demander la tache qu'il veux Supprimer et l'envoyer a la methode SupprimerTache
                 case "Supprimer"

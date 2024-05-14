@@ -2,18 +2,18 @@
 {
     public class AjouterTache
     {
-        public static string AddTache(string NomTache, string DescriptionTache, string DateFinTache) 
+        public static string AddTache( string NomTache, string DescriptionTache, string DateFinTache, string IdTache) 
         {
             Tache AddedTache = new Tache
             {
-
+                IdTache = "T" + IdTache,
                 NomTache,
                 DescriptionTache,
                 DateFinTache
             };
 
             // Ajout de la nouvelle tâche à la liste
-            Add(AddedTache);
+            ListeTaches.ListTache.Add(AddedTache);
         }
 
     }
