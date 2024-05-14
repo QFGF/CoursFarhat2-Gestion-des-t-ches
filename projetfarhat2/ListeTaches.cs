@@ -2,7 +2,7 @@
 {
     public class ListeTaches
     {
-        List<Tache> ListTache = new List<Tache>();
+        public static List<Tache> ListTache = new List<Tache>();
 
         
     }
