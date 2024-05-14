@@ -1,2 +1,2 @@
 # CoursFarhat2
-Exo Farhat Gestion de Tàche
+Exo Farhat Gestion de Tâche
